@@ -60,9 +60,11 @@ shinyUI(fluidPage(
       
       # References
       HTML('<h6>For more information have a look at the 
-           <a href = "https://hohenstein.github.io/correlation/">documentation</a>.
+           <a target = "_blank" 
+            href = "https://hohenstein.github.io/correlation/">documentation</a>.
           You can find the 
-           <a href = "http://github.com">https://github.com/hohenstein/correlation/</a>.</h6>')
+           <a target = "_blank" 
+            href = "https://github.com/hohenstein/correlation/">code on Github</a>.</h6>')
     ),
     
     # Show a tabset that includes a scatter plot, a line plot, and a table
