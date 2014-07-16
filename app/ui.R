@@ -60,9 +60,9 @@ shinyUI(fluidPage(
       
       # References
       HTML('<h6>For more information have a look at the 
-           <a href = "http://github.com">documentation</a>.
+           <a href = "https://hohenstein.github.io/correlation/">documentation</a>.
           You can find the 
-           <a href = "http://github.com">code on Github</a>.</h6>')
+           <a href = "http://github.com">https://github.com/hohenstein/correlation/</a>.</h6>')
     ),
     
     # Show a tabset that includes a scatter plot, a line plot, and a table
@@ -80,43 +80,3 @@ shinyUI(fluidPage(
     )
   )
 ))
-
-
-# library(shiny)
-# 
-# # Define UI for random distribution application 
-# shinyUI(fluidPage(
-#   
-#   # Application title
-#   titlePanel("Tabsets"),
-#   
-#   # Sidebar with controls to select the random distribution type
-#   # and number of observations to generate. Note the use of the br()
-#   # element to introduce extra vertical spacing
-#   sidebarLayout(
-#     sidebarPanel(
-#       radioButtons("dist", "Distribution type:",
-#                    c("Normal" = "norm",
-#                      "Uniform" = "unif",
-#                      "Log-normal" = "lnorm",
-#                      "Exponential" = "exp")),
-#       br(),
-#       
-#       sliderInput("n", 
-#                   "Number of observations:", 
-#                   value = 500,
-#                   min = 1, 
-#                   max = 1000)
-#     ),
-#     
-#     # Show a tabset that includes a plot, summary, and table view
-#     # of the generated distribution
-#     mainPanel(
-#       tabsetPanel(type = "tabs", 
-#                   tabPanel("Plot", plotOutput("plot")), 
-#                   tabPanel("Summary", verbatimTextOutput("summary")), 
-#                   tabPanel("Table", tableOutput("table"))
-#       )
-#     )
-#   )
-# ))
