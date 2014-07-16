@@ -15,7 +15,7 @@ knit        : slidify::knit2slides
 
 This is the documentation for a Shiny application that demonstrates the 
 concept of correlation. The application is online
-[here](http://test.com).
+[here](https://hohenstein.shinyapps.io/correlation/).
 
 <hr>
 <br>
@@ -138,8 +138,3 @@ cor(x, y)
 
 In the example above, the correlation between vectors `x` and `y` is 
 0.05.
-
-
-
-
-
