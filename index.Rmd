@@ -9,6 +9,9 @@ hitheme     : tomorrow      #
 widgets     : [mathjax]     # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft, selfcontained}
 knit        : slidify::knit2slides
+github      :
+  user  : hohenstein
+  repo  : correlation
 ---
 
 ## Correlation
